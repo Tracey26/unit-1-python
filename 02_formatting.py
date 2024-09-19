@@ -41,13 +41,13 @@ Write a program that will replace the word "cat" with the word "dog"
 It should replace all occurances regardless of captilization 
 """
 #Asks for user input on which is better dogs or cats
-dogsrbetter = (input("Type in which is better dogs or cats?: ")).strip().lower()
+dogsrbetter = (input("Type in which is better a dog or cat?: ")).strip().lower()
 
+#Will replace the word cat to dog
+saydog = dogsrbetter.replace("cat","dog")
 
-
-
-
-
+#will print the replaced answer which will be dog
+print(saydog)
 
 
 """
@@ -56,6 +56,15 @@ TASK 4:
 Write a program that takes a person's name and age as input and prints it
 """
 
+#Asks user to input age
+age = (input("How old are you?: "))
+#Asks user to input name
+name = (input("What is your name?: "))
+
+#Prints the name of the user as well as the name
+print(f"{name} is {age} years old")
+
+
 
 """
 TASK 5:
@@ -63,3 +72,9 @@ TASK 5:
 Write a program that takes in two floats, and prints the quotient
 The result should be rounded to the nearest tenth (1 decimal place)
 """
+#asks for user input of two floats
+onefloat = ((input("Input a float: ")))
+twofloat = (input("Input another float: "))
+
+#Divides the two floats
+print(f"{onefloat}/{twofloat}")
