@@ -48,7 +48,8 @@ float_var=float(input("Input a float:"))
 #Prints the answers to the calcultions being done such as addition, subtraction, product, and quotient 
 print("sum (addittion): "+str(int_var+float_var))
 print("sum (subtraction): "+str(int_var-float_var))
-print("sum (subtraction): "+str(int_var-float_var))
+print("product: "+str(int_var*float_var))
+print("quotient: "+str(int_var/float_var))
 
 """
 TASK 4:
@@ -56,7 +57,14 @@ TASK 4:
 Create a dictionary with keys as fruit names and values as their respective quantities. 
 Then print out the quantity of one of the fruits.
 """
-
+#Created dictionary for fruits and their quantities
+fruits = {
+   'pears': 3,
+   'cherries': 6,
+   'mangoes': 4,
+}
+#prints the list of fruit anf their amounts
+print(fruits)
 
 """
 TASK 5:
@@ -64,3 +72,10 @@ TASK 5:
 Create a string variable with that is a list of numbers and convert that string into a tuple.
 Then print out the both the original string and tuple.
 """
+#create a string
+my_string = "2,4,6,8"
+#Will print my string
+print(my_string)
+# will convert the string into a tuple
+my_list = my_string.split(",")
+print(my_list)
