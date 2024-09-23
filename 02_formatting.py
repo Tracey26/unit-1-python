@@ -24,11 +24,11 @@ Write code that checks if a user inputs an empty string
 If the string is empty, print "invalid" otherwise print "valid"
 """
 #Asking the user for input
-userin = (input("User input: ")).strip()
+userin = (input("Type something: ")).strip()
 
 #Checks to see if user input a valid response
 if userin.strip() == "":
-    print("InValid Input")
+    print("Invalid Input")
 else:
     print("Valid Input")
 
@@ -73,8 +73,15 @@ Write a program that takes in two floats, and prints the quotient
 The result should be rounded to the nearest tenth (1 decimal place)
 """
 #asks for user input of two floats
-onefloat = ((input("Input a float: ")))
-twofloat = (input("Input another float: "))
+onefloat = float(input("Input a float: ").strip())
+twofloat = float(input("Input another float: ").strip())
+
 
 #Divides the two floats
-print(f"{onefloat}/{twofloat}")
+quo = onefloat/twofloat
+
+#rounds the quotient to the nearest tenth
+quo = f"Answer: {quo:.2f}"
+
+#prints the rounded answer
+print(quo)
