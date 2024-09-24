@@ -55,7 +55,10 @@ Task 6: Delete Element at a Specific Index
 Delete an element at a specific index. Print the updated 
 list.
 """
-#
+# deletes the 2nd flower on the list 
+del flowers[2]
+#prints updated list
+print(flowers)
 
 """
 Task 7: Subsetting lists
@@ -63,8 +66,19 @@ Create a new variable equal to the first 2 items of your list
 Then print out the new variable
 """
 
+#created a new variable equal to the first two itmes of my previous list
+flowerspt2 = flowers[:2]
+#prints the new variable
+print(flowerspt2)
+
 """
 Task 8: Extend a List
 Extend the list with the elements of another list. Print 
 the updated list.
 """
+#created another list 
+moreflowers = ["peony","daisy","orchid"]
+#combines the lists together
+allflowers = flowers + moreflowers
+#prints the combined lists
+print(allflowers)
