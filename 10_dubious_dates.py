@@ -32,6 +32,7 @@ str_1 = "09/09/2007"
 str_2 = "07/07/2024"
 
 
+
 """
 Excercise 4:
 Write a program that asks the user for their birthdate and calculates their current 

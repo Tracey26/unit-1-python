@@ -1,4 +1,4 @@
-#welcoming the peopler
+#welcoming the people
 print("This is the Calculatinater-inator 9000!!!!")
 #prompts user to input two floats
 num1 = float(input("Input any number:").strip())
