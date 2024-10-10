@@ -5,6 +5,9 @@ parameter and prints a greeting message like "Hello, [name]!".
 """
 #Define function and created a parameter
 def my_function(name):
+    """
+    This function will take in any specified name as a parameter and give it a greeting 
+    """
     #will print name and given parameter
     print("HELLO" + name)
     #argument is specified
@@ -16,6 +19,10 @@ Write a function that takes an integer as an argument and returns its square.
 """
 #defined function and created parameter
 def math (square):
+    """
+    This function will take an integer as a parameter for 'square' and calculate 
+    and print the integers' square
+    """
     #will return the square of the number
     return square**2
 #number is specified for parameter
@@ -28,6 +35,11 @@ returns `True` if the number is even, and `False` otherwise.
 """
 #defined function and created parameter for even and odd numbers
 def even_or_odd(number):
+    """
+    This function takes a specified integer as a 'number' and calculates if it
+    has a remainder if it does false will print as the number is not even if the 
+    number is even true will print
+    """
     #will determine if either true or false if the specified number is even or odd
     return str(number % 2 == 0)
 #will print true or false of the specified number which is given
@@ -39,7 +51,8 @@ Write a function that takes the length and width of a rectangle and returns its 
 """
 def rectangle(length, width):
     return length*width
-print("The area is" + {rectangle(9,26)})
+a = rectangle(11,26)
+print(f"The area is" + {rectangle})
 
 """
 Task 5: Celsius to Fahrenheit
